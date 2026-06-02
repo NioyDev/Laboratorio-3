@@ -1,0 +1,27 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos Virtuales ---
+# Ignoramos la carpeta que creamos para las librerías
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDEs / Editores ---
+# Carpetas de configuración de VS Code o PyCharm
+.vscode/
+.idea/
+.DS_Store
+
+# --- Archivos de configuración ---
+# Ignorar variables de entorno (por seguridad)
+.env
+.python-version
+
+# --- Logs y archivos temporales ---
+*.log
+*.tmp
+*.bak
